@@ -4,8 +4,22 @@
 
 #include <stdio.h>
 
-int main() {
-  
+int main() 
+{
+  int num1,num2,total,average;
+
+  printf("Enter first mark :");
+  scanf("%d",&num1);
+
+  printf("Enter second mark :");
+  scanf("%d",&num2);
+
+  total = num1+num2;
+  average = total/2;
+
+  printf("Average = %d",average);
+
   return 0;
 }
+
 
